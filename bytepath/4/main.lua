@@ -57,3 +57,14 @@ end
 -- error('Custom Message')
 -- can go up the callstack like
 -- error('Custom Message', 1) -- or 2,3,4, etc.
+
+-- 63. We can check if a method or attribute exists by just using a conditional.
+-- For instance, if we want to check if self has the attribute damage then we can do
+--     if self.damage then. If we want to check if it has the attribute damage and
+--         if that damage is higher than 10 then we can do if self.damage and self.damage > 10 then.
+--             The use of the and operator like this was explained in a previous exercise
+
+-- 64. Using only one for loop, how can you write the contents of one table to another?
+-- for k, v in pairs(a) do
+--     b[k] = v
+-- end
